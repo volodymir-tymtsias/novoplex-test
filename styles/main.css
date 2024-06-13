@@ -1,0 +1,13 @@
+@import "./normalize.css";
+@font-face {
+  font-family: "PT Sans";
+  font-weight: 400;
+  src: url(../../fonts/PTSans-Regular.ttf);
+}
+@font-face {
+  font-family: "PT Sans";
+  font-weight: 700;
+  src: url(../../fonts/PTSans-Bold.ttf);
+}
+
+/*# sourceMappingURL=main.css.map */

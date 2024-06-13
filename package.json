@@ -1,7 +1,7 @@
 {
   "name": "novoplex-test",
   "version": "1.0.0",
-  "description": "",
+  "description": "iGaming Product Landing Page",
   "main": "./scripts/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
