@@ -1,0 +1,23 @@
+.button {
+  display: flex;
+  align-items: center;
+  min-height: 36px;
+  padding: 0 2rem;
+  background-color: $salmon;
+  border: none;
+  border-radius: 2rem;
+  @extend %button-text;
+  cursor: pointer;
+  transition: all 0.3s;
+
+  @include md {
+    min-height: 40px;
+  }
+  @include lg {
+    min-height: 48px;
+  }
+
+  &:hover {
+    background-color: $paynes-gray;
+  }
+}
