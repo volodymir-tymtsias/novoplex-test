@@ -5,13 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>iGaming Product Landing Page</title>
     <link rel="stylesheet" href="./styles/main.css" />
+    <script src="scripts/main.js" defer></script>
   </head>
-  <body>
+  <body class="page__body">
     <header class="header">
       <div class="header__container">
         <h1 class="title title--header">iGaming Product</h1>
-        <button class="button" id="learn-more-btn">Дізнатися більше</button>
+        <button class="button" id="learn-more-btn" type="button">
+          Дізнатися більше
+        </button>
       </div>
     </header>
+
+    <main>
+      <section id="about-product" class="about">
+        <div class="about__container">
+          <div class="about__img-wrapper">
+            <img src="images/product.jpg" alt="Product Image" class="about__image"/>
+          </div>
+          <p class="about__text">
+            Опис продукту... Lorem ipsum, dolor sit amet consectetur adipisicing
+            elit. Doloremque ad saepe at voluptates, totam nam debitis est
+            veritatis porro aperiam. Ducimus officia dicta quam ipsam blanditiis.
+            Repudiandae magnam unde esse cum, modi tempora accusamus delectus
+            nihil libero illo excepturi aperiam aut consequuntur dolores mollitia
+            eius voluptatem sunt vitae autem ad!
+          </p>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
