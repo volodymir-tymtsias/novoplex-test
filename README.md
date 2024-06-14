@@ -7,7 +7,7 @@ How to run the project locally
 ```bash
 git clone git@github.com:volodymir-tymtsias/novoplex-test.git
 
-cd igaming-landing-page
+cd novoplex-test
 ```
 
 2. Open index.html in your browser.

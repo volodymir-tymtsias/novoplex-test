@@ -94,7 +94,7 @@
 .header {
   height: 100vh;
   width: 100%;
-  background: url(../../images/product.jpg);
+  background: url("../images/product.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -302,7 +302,7 @@
   min-height: 100px;
   width: 100%;
   padding: 2rem 3rem;
-  background: url(../../images/footer.jpg);
+  background: url("../images/footer.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -370,19 +370,19 @@
   background-repeat: no-repeat;
 }
 .icon--facebook {
-  background-image: url(../../images/icons/facebook.svg);
+  background-image: url("../images/icons/facebook.svg");
 }
 .icon--twitter {
-  background-image: url(../../images/icons/twitter.svg);
+  background-image: url("../images/icons/twitter.svg");
 }
 .icon--instagram {
-  background-image: url(../../images/icons/instagram.svg);
+  background-image: url("../images/icons/instagram.svg");
 }
 .icon--youtube {
-  background-image: url(../../images/icons/youtube.svg);
+  background-image: url("../images/icons/youtube.svg");
 }
 .icon--linkedin {
-  background-image: url(../../images/icons/linkedin.svg);
+  background-image: url("../images/icons/linkedin.svg");
 }
 
 /*# sourceMappingURL=main.css.map */
