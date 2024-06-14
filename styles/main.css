@@ -13,20 +13,19 @@
   font-family: "PT Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 24px;
   color: #ffffff;
 }
 @media (min-width: 768px) {
   .page {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 18px;
+    line-height: 28px;
   }
 }
 @media (min-width: 1024px) {
   .page {
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 20px;
   }
 }
 
@@ -50,16 +49,16 @@
 
 .features, .about {
   width: 100%;
-  padding: 1rem;
+  padding: 3rem 1rem;
 }
 @media (min-width: 768px) {
   .features, .about {
-    padding: 1.5rem;
+    padding: 4rem 1.5rem;
   }
 }
 @media (min-width: 1024px) {
   .features, .about {
-    padding: 2rem;
+    padding: 5rem 2rem;
   }
 }
 
@@ -88,7 +87,7 @@
   scroll-behavior: smooth;
 }
 .page__body {
-  background: #000000;
+  background: #0b0d13;
 }
 
 .header {
@@ -107,7 +106,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   gap: 2rem;
   height: 100%;
   padding: 1rem;
@@ -124,6 +123,7 @@
 }
 @media (min-width: 1024px) {
   .header__container {
+    justify-content: flex-end;
     gap: 4rem;
   }
 }
