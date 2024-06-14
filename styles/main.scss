@@ -3,9 +3,11 @@
 @import "./utils/vars";
 @import "./utils/mixins";
 @import "./utils/typography";
+@import "./utils/extends";
 
 @import "./blocks/page.scss";
 @import "./blocks/header.scss";
 @import "./blocks/title.scss";
 @import "./blocks/button.scss";
 @import "./blocks/about.scss";
+@import "./blocks/features.scss";
